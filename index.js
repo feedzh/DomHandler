@@ -85,7 +85,6 @@ DomHandler.prototype.onopentag = function(name, attribs){
 	} else {
 		this.dom.push(element);
 	}
-
 	this._tagStack.push(element);
 };
 
